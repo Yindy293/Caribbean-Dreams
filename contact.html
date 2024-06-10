@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caribbean Dreams - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Caribbean Dreams - Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="images/photo11.jpg" alt="Caribbean View" class="contact-header">
+        <div class="tab-menu">
+            <button class="tab-button active">Primary Traveler</button>
+            <button class="tab-button">Additional Travelers</button>
+            <button class="tab-button">Trip Information</button>
+            <button class="tab-button">Preferences</button>
+        </div>
+        <section class="contact-form">
+            <form action="submit-form-handler" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <button type="submit">Save</button>
+            </form>
+        </section>
+        <section class="social-media">
+            <h2 id="connectWithUs">Connect with us:</h2>
+            <a href="http://facebook.com">Facebook</a>
+            <a href="http://twitter.com">Twitter</a>
+            <a href="http://instagram.com">Instagram</a>
+        </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2069407194886!2d-77.39476898467733!3d18.47622328743425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb3e5e8a7c97e3%3A0x7692d8d439a59fb6!2sMontego%20Bay%2C%20Jamaica!5e0!3m2!1sen!2sus!4v1640739963549" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>        
+    </main>
+    <footer>
+        <p>© 2024 Caribbean Dreams. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

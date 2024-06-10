@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #aed5e7;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4982ad;
+}
+
+#h3smallHeader {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0277BD; /* deep ocean blue */
+    font-weight: bold;
+}
+
+.hero-header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-header {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #01579B; /* lighter blue */
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.info article {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.img-small {
+    width: 50%; /* Adjust size */
+    transition: width 0.3s ease-in-out;
+}
+
+footer {
+    background-color: #0277BD;
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Tab Menu Style */
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allows tabs to wrap on smaller screens */
+}
+
+.tab-button {
+    padding: 10px 20px;
+    margin: 5px; /* Ensure consistent spacing around buttons */
+    background-color: #0277BD;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tab-button.active, .tab-button:hover {
+    background-color: #01579B; /* Darker shade for active/hover state */
+    color: #fff;
+}
+
+/* Enhanced form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center form elements horizontally */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #cbe5ea;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    width: 100%; /* Full width */
+    margin: 15px 0 5px;
+    color: #01579B;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: auto; /* Auto width for flexibility */
+    padding: 10px 20px;
+    background-color: #0277BD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.social-media a {
+    margin-right: 20px;
+    color: #0277BD;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.clickable h3 {
+    cursor: pointer;
+}
+
+/* Responsiveness for mobile viewing */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 95%;
+    }
+
+    .tab-menu {
+        flex-direction: column;
+    }
+
+    .tab-button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
